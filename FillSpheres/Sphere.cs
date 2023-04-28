@@ -26,7 +26,7 @@ namespace FillSpheres
                 number++;
             }
         }
-        public void GetTimesThrown()
+        public int GetTimesThrown()
         {
             return number;
         }

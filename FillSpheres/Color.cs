@@ -15,8 +15,7 @@ namespace FillSpheres
             this.r=r;
             this.g=g;
             this.b=b;
-            this.a=a,
-
+            this.a=a;
         }
         public Color(byte r, byte g, byte b)
         {
