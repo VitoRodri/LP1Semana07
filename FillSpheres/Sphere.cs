@@ -4,6 +4,34 @@ namespace FillSpheres
 {
     public class Sphere
     {
+        private Color color;
+        private float raio;
+        private int number;
+
+        public Sphere(Color color, float raio)
+        {
+            this.color=color;
+            this.raio=raio;
+            number=0;
+        }
+
+        public void Pop()
+        {
+            raio=0;
+        }
+        public void Throw()
+        {
+            if (raio>0)
+            {
+                number++;
+            }
+        }
+        public void GetTimesThrown()
+        {
+            return number;
+        }
+
+
 
     }
 }
